@@ -1,15 +1,12 @@
 import React from "react";
 import imgCerebro from "../assets/img/cerebro.png";
+import "../assets/css/Carrito.css";
 
 export default function ItemCarrito() {
   return (
     <>
       <div className="carrito-item">
-        <img
-          src="http://escueladevrock.com/store/12.png"
-          alt=""
-          className="carrito-item-img"
-        />
+        <img src={(imgCerebro = "")} alt="" className="carrito-item-img" />
         <div className="carrito-txt">
           <h1 className="carrito-item-titulo">Cerebro loco</h1>
           <h3 className="carrito-item-precio">AR$ 150</h3>

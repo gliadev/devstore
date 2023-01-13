@@ -1,6 +1,6 @@
 import React from "react";
-import iconoCarrito from "../assets/statics/img/carrito.png";
-import iconoVolver from "../assets/statics/img/volver.png";
+import iconoCarrito from "../assets/img/carrito.png";
+import iconoVolver from "../assets/img/volver.png";
 
 export default function Header() {
   return (
