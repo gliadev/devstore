@@ -6,7 +6,7 @@ export default function ItemCarrito() {
   return (
     <>
       <div className="carrito-item">
-        <img src={(imgCerebro = "")} alt="" className="carrito-item-img" />
+        <img src={imgCerebro} alt="" className="carrito-item-img" />
         <div className="carrito-txt">
           <h1 className="carrito-item-titulo">Cerebro loco</h1>
           <h3 className="carrito-item-precio">AR$ 150</h3>
